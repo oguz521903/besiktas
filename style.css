@@ -1,0 +1,173 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header stil ayarları */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+   color: white;
+    text-decoration: none;
+}
+
+/* Main stil ayarları */
+main {
+    padding: 100px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Footer stil ayarları */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px
+    ;
+}
+
+
+
+.slogan {
+    max-width: 500px; 
+    height: auto; 
+    margin-left: 250px;
+}
+
+.ustyazi{
+  margin-right: 100px;
+}
+
+.resimler img {
+    width: 220px; 
+    height: auto; 
+    float: left;
+    margin-right: 20px; 
+    
+}
+
+.renk-degisim {
+    color: white;
+    transition: background-color 0.3s, color 0.3s; 
+    padding: 10px; 
+    
+    
+}
+
+.renk-degisim:hover {
+    background-color: white; 
+    color: black; 
+}
+
+
+.ust-cizgi {
+    border-top: 2px solid white;
+    /* veya
+    box-shadow: 0px 1px 0px 0px white; */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Diğer öğelerin üzerine çıkması için */
+}
+
+
+
+
+
+.ust-resim {
+    position: relative;
+    
+}
+
+.alt-resim {
+    
+    bottom: 20;
+    left: 10;
+    transform: translate(0%, 0%);
+    
+}
+
+#yaziGitLink {
+    color: black; 
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.yazi1{
+    max-width: 600px;
+    text-align: center; 
+    margin-left: 350px;
+    line-height:1.6;
+    color: black;
+    letter-spacing: 1px;
+    text-shadow: gray;
+    text-align: center;
+}
+.haberbaskan{
+    margin-left: 250px;
+}
+
+.aciklamahaber{
+    margin-left: 300px;
+}
+
+.hometusu{
+    margin-right:  50px;
+    margin-top: -100px;
+}
+
+.ana-div {
+    position: relative;
+}
+
+.forma {
+    
+    margin-right: 20px; 
+}
+
+.birakmambjk {
+    position: absolute; /* Diğer resmi konumlandırmak için */
+    right: 2; /* Resmi sağa hizalar */
+    top: 0; /* Resmin üst kısmını hizalar */
+    height: 500px;
+    width: 500px;
+}
+.amblem{
+      
+    bottom: 20;
+    left: 10;
+    transform: translate(0%, 0%);
+    max-width: 200px;
+    margin-left: 550px;
+}
+
+
+
+
+
+
